@@ -193,3 +193,11 @@ Available Commands:
 Flags:
   -h, --help      help for ollama
   -v, --version   Show version information
+
+---
+
+qwen2.5-coder
+The latest series of Code-Specific Qwen models, with significant improvements in code generation, code reasoning, and code fixing.
+```bash
+ollama run qwen2.5-coder:7b
+```
