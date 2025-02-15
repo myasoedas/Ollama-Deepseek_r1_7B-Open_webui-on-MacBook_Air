@@ -171,7 +171,7 @@ Open WebUI предоставляет удобный веб-интерфейс �
 videoOpen WebUI with DeepSeek on local by Ollama - Quick Introductionturn0search3 
 
 ---
-
+```bash
 Usage:
   ollama [flags]
   ollama [command]
@@ -193,7 +193,7 @@ Available Commands:
 Flags:
   -h, --help      help for ollama
   -v, --version   Show version information
-
+```
 ---
 
 qwen2.5-coder
