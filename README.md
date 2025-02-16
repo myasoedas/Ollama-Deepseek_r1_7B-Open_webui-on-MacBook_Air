@@ -9,7 +9,7 @@
 
 **Шаг 1: Установка Ollama**
 
-1. Перейдите на официальный сайт Ollama: [https://ollama.com/](https://ollama.com/).
+1. Перейдите на официальный сайт Ollama: [https://ollama.com/](https://ollama.com).
 2. Скачайте версию для macOS (Windows, Linux) и установите её, следуя инструкциям на экране.
 3. После установки откройте терминал и введите команду:
 
@@ -49,7 +49,7 @@ Flags:
 
 **Шаг 2: Загрузка модели DeepSeek R1**
 
-1. Откройте список доступных моделей для загрузки: [https://ollama.com/seach/](https://ollama.com/search/).
+1. Откройте список доступных моделей для загрузки: [https://ollama.com/seach/](https://ollama.com/search).
 2. Скопируйте команду для загрузки модели через терминал.
 3. В терминале выполните команду для загрузки модели deepseek-r1:7b :
 
@@ -70,8 +70,8 @@ Flags:
 
 Для того чтобы взаимодействие с моделью было через веб-браузер с привычным интерфейсом ChatGPT, необходимо установить веб приложение **Open Web UI**.
 
-1. Убедитесь, что на вашем компьютере установлен Docker Desktop. Если нет, скачайте и установите его с официального сайта: [https://www.docker.com/](https://www.docker.com/).
-2. Перейдите на страницу Open Web UI на GitHub: [https://github.com/open-web-ui/open-web-ui](https://github.com/open-web-ui/open-web-ui).
+1. Убедитесь, что на вашем компьютере установлен Docker Desktop. Если нет, скачайте и установите его с официального сайта: [https://www.docker.com/](https://www.docker.com).
+2. Перейдите на страницу Open Web UI на GitHub: [https://github.com/open-web-ui/open-web-ui](https://github.com/open-web-ui).
 3. Следуйте инструкциям по установке, представленным в разделе «Installation with Docker».
 
 **Шаг 4: Запуск модели с веб-интерфейсом**
@@ -84,7 +84,7 @@ Flags:
 
 Дополнительную информацию и подробные инструкции вы можете найти в следующих источниках:
 
-- Статья на Habr: [https://habr.com/ru/articles/876320/](https://habr.com/ru/articles/876320/)
+- Статья на Habr: [https://habr.com/ru/articles/876320/](https://habr.com/ru/articles/876320)
 - Руководство на VC.ru: [https://vc.ru/ai/1772197-kak-ustanovit-i-ispolzovat-deepseek-r-1-na-vashem-kompyutere](https://vc.ru/ai/1772197-kak-ustanovit-i-ispolzovat-deepseek-r-1-na-vashem-kompyutere)
 
 Следуя этим шагам, вы сможете установить и настроить DeepSeek R1 с веб-интерфейсом на вашем локальном компьютере. 
