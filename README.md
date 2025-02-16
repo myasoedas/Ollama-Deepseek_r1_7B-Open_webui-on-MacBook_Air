@@ -68,8 +68,11 @@ Flags:
 Для того чтобы взаимодействие с моделью было через веб-браузер с привычным интерфейсом ChatGPT, необходимо установить веб приложение **Open Web UI**.
 
 1. Убедитесь, что на вашем компьютере установлен Docker Desktop. Если нет, скачайте и установите его с официального сайта: [https://www.docker.com/](https://www.docker.com).
-2. Перейдите на страницу Open Web UI на GitHub: [https://github.com/open-web-ui/open-web-ui](https://github.com/open-web-ui).
-3. Следуйте инструкциям по установке, представленным в разделе «Installation with Docker».
+2. Перейдите на страницу Open Web UI на GitHub: [https://github.com/open-web-ui/open-web-ui]([https://github.com/open-web-ui](https://github.com/open-webui/open-webui/blob/main/README.md). Следуйте инструкциям по установке, представленным в разделе «Installation with Docker».
+
+```bash
+docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+```
 
 **Шаг 4: Запуск модели с веб-интерфейсом**
 
