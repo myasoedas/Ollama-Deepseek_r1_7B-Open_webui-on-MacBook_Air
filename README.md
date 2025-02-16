@@ -1,14 +1,16 @@
-# deepseek-r1-7B-on-macbook-air
-Установка DeepSeek-r1-7B на macbook air
+### Инструкция по установке Open Source аналогов ChatGPT на локальный ПК
 
----
-
-Для установки модели DeepSeek R1 с веб-интерфейсом на вашем MacBook Air рекомендуется использовать утилиту **Ollama** и интерфейс **Open Web UI**. Этот подход обеспечивает удобное взаимодействие с моделью через веб-браузер.
+**Исходные данные:**
+1. Ноутбук: MacBook Air M1 2020
+2. Чип: Apple M1
+3. Память: 8 ГБ
+4. Видеокарта встроенная
+5. macOS 13.2.1
 
 **Шаг 1: Установка Ollama**
 
 1. Перейдите на официальный сайт Ollama: [https://ollama.com/](https://ollama.com/).
-2. Скачайте версию для macOS и установите её, следуя инструкциям на экране.
+2. Скачайте версию для macOS (Windows, Linux) и установите её, следуя инструкциям на экране.
 3. После установки откройте терминал и введите команду:
 
    ```bash
@@ -17,15 +19,58 @@
 
    Если установка прошла успешно, вы увидите номер версии Ollama.
 
+**Справочная информация по камандам Ollama:**
+
+```bash
+Usage:
+  ollama [flags]
+  ollama [command]
+
+Available Commands:
+  serve       Start ollama
+  create      Create a model from a Modelfile
+  show        Show information for a model
+  run         Run a model
+  stop        Stop a running model
+  pull        Pull a model from a registry
+  push        Push a model to a registry
+  list        List models
+  ps          List running models
+  cp          Copy a model
+  rm          Remove a model
+  help        Help about any command
+
+Flags:
+  -h, --help      help for ollama
+  -v, --version   Show version information
+```
+   
+---
+
 **Шаг 2: Загрузка модели DeepSeek R1**
 
-1. В терминале выполните команду для загрузки модели:
+1. Откройте список доступных моделей для загрузки: [https://ollama.com/seach/](https://ollama.com/search/).
+2. Скопируйте команду для загрузки модели через терминал.
+3. В терминале выполните команду для загрузки модели deepseek-r1:7b :
 
    ```bash
    ollama run deepseek-r1:7b
    ```
 
-   Эта команда загрузит модель с 7 миллиардами параметров, оптимальную для вашего MacBook Air.
+Эта команда загрузит модель deepseek-r1:7b с 7 миллиардами параметров, оптимальную для вашего ПК или ноутбука.
+
+---
+
+# deepseek-r1-7B-on-macbook-air
+Установка DeepSeek-r1-7B на macbook air
+
+---
+
+Для установки модели DeepSeek R1 с веб-интерфейсом на вашем MacBook Air рекомендуется использовать утилиту **Ollama** и интерфейс **Open Web UI**. Этот подход обеспечивает удобное взаимодействие с моделью через веб-браузер.
+
+
+
+
 
 **Шаг 3: Установка Open Web UI**
 
@@ -171,29 +216,7 @@ Open WebUI предоставляет удобный веб-интерфейс �
 videoOpen WebUI with DeepSeek on local by Ollama - Quick Introductionturn0search3 
 
 ---
-```bash
-Usage:
-  ollama [flags]
-  ollama [command]
 
-Available Commands:
-  serve       Start ollama
-  create      Create a model from a Modelfile
-  show        Show information for a model
-  run         Run a model
-  stop        Stop a running model
-  pull        Pull a model from a registry
-  push        Push a model to a registry
-  list        List models
-  ps          List running models
-  cp          Copy a model
-  rm          Remove a model
-  help        Help about any command
-
-Flags:
-  -h, --help      help for ollama
-  -v, --version   Show version information
-```
 ---
 
 qwen2.5-coder
